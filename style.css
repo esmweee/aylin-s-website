@@ -2,8 +2,8 @@ img {
 width: 200px;
 }
 body {
-text-align: center;
+text-align: left;
 font-family: 'Arial';
-background: azure;
+background: rgb(255, 255, 255);
 color: black;
 }
