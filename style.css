@@ -20,7 +20,12 @@ vertical-align: 20px;
 
 }
 p {
-text-align: start;
+text-align: center;
+font-family: "Parkinsans", sans-serif;
+font-optical-sizing: auto;
+font-weight: 250;
+font-style: normal;
+line-height: 0.5;
 
 }
 
