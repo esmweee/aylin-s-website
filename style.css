@@ -1,3 +1,12 @@
+body {
+background-image: url("assets/kittybg.jpg")
+}
+
+button {
+text-align: center;
+}
+
+
 img {
 width: 200px;
 }
@@ -43,7 +52,20 @@ color: pink;
 }
 
 .navbar ul{
+text-align: center;
 list-style-type: none;
 background-color: white;
 padding: 0px;
+margin: 0;
+display: flex;
 }
+
+.navbar a{
+color: rgb(255, 196, 206);
+text-decoration: none;
+padding: 10px;
+display: block;
+text-align: center;
+
+}
+
