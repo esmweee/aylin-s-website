@@ -44,5 +44,6 @@ color: pink;
 
 .navbar ul{
 list-style-type: none;
-background-image: 
+background-color: white;
+padding: 0px;
 }
