@@ -7,6 +7,7 @@ font-family: "Jua", sans-serif;
 font-weight: 400;
 font-style: normal;
 font-size: 25px;
+color: pink;
 
 }
 h2 {
@@ -17,6 +18,7 @@ font-style: normal;
 text-align: center;
 font-size: 15px;
 vertical-align: 20px;
+color: pink;
 
 }
 p {
@@ -29,6 +31,18 @@ line-height: 0.5;
 
 }
 
+button {
+font-family: "Parkinsans", sans-serif;
+font-optical-sizing: auto;
+font-weight: 250;
+font-style: normal;
+background-color: white;
+color: pink;
 
 
+}
 
+.navbar ul{
+list-style-type: none;
+background-image: 
+}
