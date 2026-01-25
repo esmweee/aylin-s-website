@@ -6,10 +6,6 @@ background-position: center;
 background-attachment: fixed;
 }
 
-button {
-justify-content: center;
-}
-
 h1, h3, h4, h5, h6 {
 text-align: center;
 font-family: "Jua", sans-serif;
@@ -43,19 +39,10 @@ color: white;
 
 }
 
-button {
-font-family: "Parkinsans", sans-serif;
-font-optical-sizing: auto;
-font-weight: 250;
-font-style: normal;
-background-color: white;
-color: pink;
-}
-
 .navbar ul{
 text-align: center;
 list-style-type: none;
-padding: 0px;
+padding: 15px;
 margin: 0;
 display: flex;
 justify-content: center;
