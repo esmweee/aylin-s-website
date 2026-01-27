@@ -1,8 +1,8 @@
 body {
-background-image: url("assets/websitebg.png");
-background-repeat: none;
-background-size: cover;
-background-position: center;
+background-image: url("assets/websitebackground.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-position: center top;
 background-attachment: fixed;
 }
 
@@ -35,14 +35,19 @@ font-optical-sizing: auto;
 font-weight: 250;
 font-style: normal;
 line-height: 1.7;
-color: white;
+color: rgb(0, 0, 0);
 
 }
+
+#home-page p {
+margin-left: -500px
+}
+
 
 .navbar ul{
 text-align: center;
 list-style-type: none;
-padding: 15px;
+padding: 75px;
 margin: 0;
 display: flex;
 justify-content: center;
