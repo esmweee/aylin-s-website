@@ -12,8 +12,6 @@
   </head>
   <body>
     
-  <!-- <img src="https://c.tenor.com/ItDui9yfikoAAAAd/tenor.gif"/>
-  <img src="https://c.tenor.com/x1PjYNzn0V0AAAAC/tenor.gif"/> -->
 
 <nav class="navbar">
   <ul> 
@@ -30,7 +28,29 @@
 <p class="info-1">I made this website for Hack Club's Sleepover, but I will <br> try to use it more often to showcase things like projects<br>I'm currently working on, updating my gallery, and more!</p>
 <p class="info-2">This website only works well in full screen, so if you look at it<br>PLEASE do full screen. (ᵕ—ᴗ—)</p>
 <p class="info-3">Additionally, if you have any suggestions for the website,<br>please let me know! I really wanna improve this and <br> use your suggestions to improve at coding/web dev.
-<br><br> Check out the buttons at the top if you wanna learn more<br>about me and what I'm currently doing/working on! ♡ </p>
+<br><br> Check out the buttons at the top if you wanna learn more<br>about me and what I'm currently doing/working on! ♡ <br> Also, look at these kitties...</p>
+
+<img id="catapi_image_elem">
+
+<script>
+document.addEventListener('DOMContentLoaded', setRandomCatImage)
+async function setRandomCatImage() {
+	const catapi_call = await fetch('https://api.thecatapi.com/v1/images/search')
+	const catapi_json = await catapi_call.json()
+	const img_url = catapi_json[0].url
+	const img_width = catapi_json[0].width
+	const img_height = catapi_json[0].height
+	const image_elem = document.getElementById('catapi_image_elem')
+	image_elem.src = img_url
+}
+</script>
+
+
+
+
+
+
+
 
 </body>
 </html>

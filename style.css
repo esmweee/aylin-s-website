@@ -116,3 +116,11 @@ display: block;
 text-align: center;
 }
 
+#catapi_image_elem {
+width: 170px;
+height: auto;
+display: block;
+margin: 20px 0 20px 400px;
+
+
+}
